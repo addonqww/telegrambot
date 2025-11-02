@@ -1,0 +1,10 @@
+# Files and folders to ignore for security and environment purposes
+
+# 1. Python environment files
+venv/
+__pycache__/
+*.pyc
+*.log
+
+# 2. Secret Configuration File (CRITICAL)
+.env
